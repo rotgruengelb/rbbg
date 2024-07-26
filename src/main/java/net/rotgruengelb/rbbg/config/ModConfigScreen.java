@@ -31,8 +31,7 @@ public class ModConfigScreen extends Screen {
 		}, Supplier::get));
 
 		// stutterfix
-		this.addDrawableChild(new ConfigButton(this.width / 2 - 100, y + 24, getSettingButtonTranslation(
-				"stutterfix"), button -> {
+		this.addDrawableChild(new ConfigButton(this.width / 2 - 100, y + 24, getSettingButtonTranslation("stutterfix"), button -> {
 			configureStutterfix = !configureStutterfix;
 			button.setMessage(getSettingButtonTranslation("stutterfix"));
 		}, Supplier::get));
