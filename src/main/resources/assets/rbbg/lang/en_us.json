@@ -1,0 +1,7 @@
+{
+	"title.rbbg.config": "Random Buttons Be Gone - Config",
+	"config.rbbg.setting.physicsmod": "Physics Mod Button: %s",
+	"config.rbbg.setting.stutterfix": "Stutter Fix Button: %s",
+	"config.rbbg.hide": "Hide",
+	"config.rbbg.show": "Show"
+}

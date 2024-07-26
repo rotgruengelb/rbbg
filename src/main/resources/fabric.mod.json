@@ -1,0 +1,33 @@
+{
+	"schemaVersion": 1,
+	"id": "rbbg",
+	"version": "${version}",
+	"name": "Random Buttons Be Gone",
+	"description": "Remove some annoying buttons added by other mods.",
+	"authors": [
+		"rotgruengelb"
+	],
+	"contact": {
+		"sources": "https://github.com/rotgruengelb/rbbg"
+	},
+	"accessWidener": "rbbg.accesswidener",
+	"license": "MIT",
+	"icon": "assets/rbbg/icon.png",
+	"entrypoints": {
+		"client": [
+			"net.rotgruengelb.rbbg.RandomButtonsBeGone"
+		],
+		"modmenu": [
+			"net.rotgruengelb.rbbg.integration.ModMenuIntegration"
+		]
+	},
+	"mixins": [
+		"rbbg.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=${loader_version}",
+		"minecraft": ">=1.20 <1.22",
+		"java": ">=17",
+		"nixienaut": ">=${nixienaut_version}"
+	}
+}
