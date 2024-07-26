@@ -3,7 +3,7 @@
 	"id": "rbbg",
 	"version": "${version}",
 	"name": "Random Buttons Be Gone",
-	"description": "Remove some annoying buttons added by other mods.",
+	"description": "Removes the obnoxious buttons that some mods add to the options screen.",
 	"authors": [
 		"rotgruengelb"
 	],
