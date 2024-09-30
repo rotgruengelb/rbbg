@@ -27,7 +27,7 @@ dependencies {
 	modImplementation "net.fabricmc:fabric-loader:${project.loader_version}"
 
 	include implementation("com.moulberry:mixinconstraints:1.0.1")
-	include implementation(annotationProcessor("com.github.bawnorton:mixinsquared-fabric:0.2.0-beta.6"))
+	include implementation(annotationProcessor("com.github.bawnorton.mixinsquared:mixinsquared-fabric:0.2.0-beta.6"))
 	modImplementation annotationProcessor("net.rotgruengelb:nixienaut:${project.nixienaut_version}")
 	modImplementation "com.terraformersmc:modmenu:${project.modmenu_version}"
 
